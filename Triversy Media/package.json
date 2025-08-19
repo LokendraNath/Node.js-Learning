@@ -4,7 +4,7 @@
   "type": "module",
   "main": "createServer.js",
   "scripts": {
-    "dev": "node createServer"
+    "dev": "nodemon --env-file=.env createServer"
   },
   "author": "",
   "license": "ISC",
